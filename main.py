@@ -137,6 +137,14 @@ def main():
     input(Colorate.Vertical(Colors.red_to_blue, "Viewers have all been sent. You can press enter to withdraw the views and the program will close."))
     driver.quit()
 
+    response = requests.get("https://api.github.com")
+    print(response.status_code)
+
+    driver = webdriver.Chrome()  # Ensure you have the ChromeDriver installed
+    driver.get("https://www.google.com")
+    print(driver.title)
+    driver.quit()
+
 
 if __name__ == '__main__':
     main()

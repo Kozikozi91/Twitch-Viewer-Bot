@@ -1,0 +1,11 @@
+{
+  "name": "twitch-viewer-bot",
+  "version": "1.0.0",
+  "description": "A Twitch viewer bot project",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js"
+  },
+  "author": "kozzii91",
+  "license": "MIT"
+}
